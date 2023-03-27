@@ -21,7 +21,7 @@ const {weatherData, location,  homeRef}=props
     const date = dateTime.toLocaleDateString();
     const timeOptions = { hour12: true, hour: 'numeric', minute: 'numeric' };
     const time = dateTime.toLocaleTimeString([],timeOptions);
-    console.log("date",dateTime)
+    
     const day = dateTime.toLocaleString('default', { weekday: 'long' });
 
   return (

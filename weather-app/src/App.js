@@ -36,7 +36,7 @@ function App() {
   const newsRef = useRef();
 
   const smoothScroll = (event)=>{
-    console.log("event", event)
+   
     event.current.style.animation = "fad_in 1s";
     
     window.scrollTo({

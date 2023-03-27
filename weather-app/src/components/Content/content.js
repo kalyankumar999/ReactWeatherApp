@@ -14,7 +14,7 @@ const [weatherData1,setWeatherData1] = useState();
 const [weatherData2,setWeatherData2] = useState();
 const [weatherData3,setWeatherData3] = useState();
 
-  console.log("weatherData3", weatherData3)
+  
 
   useEffect(()=>{
     getWeatherData("Mumbai")

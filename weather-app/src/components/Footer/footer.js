@@ -26,7 +26,7 @@ const Footer = (props) => {
   ];
 
   const handleMouseHover = (event) => {
-    console.log("Event", event);
+  
 
     event.target.style.opacity = "0.8";
   };
