@@ -1,0 +1,109 @@
+@keyframes fad_in{
+    0%{
+    opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+      }
+.content_3{
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+.heading_3{
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: emoji;
+    font-weight: bold;
+}
+.pic_3{
+    height: 390px; 
+    width: 300px;
+    margin-top: 40px;
+    background-color: rgb(253, 252, 255);
+    border-radius: 20px;
+    text-align: start;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.pic_3:hover{
+    cursor: pointer ;
+    
+    
+}
+.overlay_3{
+    position: absolute;
+
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 20px;
+    background: rgb(11, 10, 10);
+    transition: opacity 0.4s ease-in-out;
+
+}
+.matter_3{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    color: white;
+    background: transparent;   
+    font-weight: bold;
+    padding: 20px;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.effectsContainer_3:hover .matter_3{
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition-duration: 1s; 
+}
+
+.picimg_3{
+border-radius: 20px;
+height: 390px;  
+width: 100%;
+position: relative;
+
+}
+.effectsContainer_3{
+    position: relative;
+}
+.effects_3{
+    position: absolute;
+    margin-top: -90px;
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.cardsContainer_3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.bottom_3{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: -150px;
+    height: 95px;
+    padding: 20px;
+}
+.watermark_3{
+    font-size: 30px;
+    font-family: emoji;
+    margin-top: 20px;
+}
+.infor_3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}

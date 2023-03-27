@@ -1,0 +1,29 @@
+.headContaier{
+display: flex;
+justify-content:flex-start;
+gap: 25%;
+padding: 10px;
+position: fixed;
+width: 100%;
+z-index: 10;
+}
+.headComponents{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #f9d93c;
+  font-weight: bold;
+}
+.home:hover{
+  color: gray;
+}
+
+.city:hover{
+  color: gray;
+}
+
+.news:hover{
+  color: gray;
+}
